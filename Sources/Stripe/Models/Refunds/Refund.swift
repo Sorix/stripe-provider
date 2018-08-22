@@ -17,7 +17,7 @@ public struct StripeRefund: StripeModel {
     public var id: String
     public var object: String
     public var amount: Int
-    public var balanceTransaction: String
+    public var balanceTransaction: String?
     public var charge: String
     public var created: Date
     public var currency: StripeCurrency

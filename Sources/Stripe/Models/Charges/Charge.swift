@@ -20,7 +20,7 @@ public struct StripeCharge: StripeModel {
     public var amountRefunded: Int
     public var application: String?
     public var applicationFee: String?
-    public var balanceTransaction: String
+    public var balanceTransaction: String?
     public var captured: Bool
     public var created: Date
     public var currency: StripeCurrency
